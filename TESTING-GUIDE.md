@@ -28,10 +28,6 @@ docker-compose up --build
 Wait until you see the API Gateway and all three services started (no errors).  
 To run in the background instead:
 
-```powershell
-docker-compose up -d --build
-```
-
 ### Option B: Build first, then run
 
 If the Java services (order-service, api-gateway) were not built before:
